@@ -44,7 +44,7 @@ One of the main challenges was tuning the PID controller. We tested different va
 
 We also changed the steering method during development. Our original approach wasn't turning sharply enough, so we used pivot turns where one motor moved forward while the other reversed.
 
-Another big problem was that different battery voltages affected the motor speeds, which made testing less consistent. 
+Another big problem was that different battery voltages affected the motor speeds, which made testing less consistent.
 
 ## My Contribution
 
@@ -57,14 +57,14 @@ This was a team project. I mainly worked on:
 - Report writing and documentation
 - Creating the final project demonstration video
 
-## Project Files
+## Project Structure
 
-- `arduino/` - Arduino code for the buggy
-- `gui/` - Processing GUI
-- `docs/` - Project reports and development log
-- `images/` - Project diagrams
-
-- `arduino/` - Arduino code for the buggy
-- `gui/` - Processing GUI
-- `docs/` - Project reports and development log
-- `images/` - Project diagrams and images
+```text
+autonomous-line-following-buggy/
+├── arduino/                 # Arduino code for the buggy
+├── gui/                     # Processing GUI for control and monitoring
+├── docs/                    # Project reports and development documentation
+├── images/                  # System and hardware diagrams / project images
+│   ├── system_diagram.png
+│   └── hardware_diagram.png
+└── README.md
