@@ -1,0 +1,25 @@
+Appendix III - change log of development 
+Group X15
+
+Since we had been using a google drive to keep all of our code, reports and other information organised and accessible for our entire group, we never ended up moving to Git. 
+
+As such, I have summarised the updates to our code according to what was uploaded to the drive here - especially since the log of changes on the drive isn't particularly clean and the file names don't mean much.
+
+Bronze challenge updates:
+
+05/02/25 - Motor control successfully coded into arduino
+10/02.25 - Implemented IR logic to control each motor 
+17/02/25 - Implemented direction prompts to be sent to serial monitor via USB
+19/02/25 - Further refined direction prompts for GUI usage
+20/02/25 - processing GUI layout and functionality implemented
+21/02/25 - WiFi setup between both processing GUI and arduino
+21/02/25 - Buggy successfully line following and reporting
+25/02/25 - Bronze demo code - most optimised line following code
+
+Silver challenge updates: 
+
+18/03/25 - PID implementation into arduino code
+18/03/25 - processing GUI further  built for silver functionality
+21/03/25 - Implemented IsIdle function, tuned PID
+24/03.25 - Final version of processing code with all desired functionality implemented 
+24/03/25 - 10/04/25 - tuning of PID and debugging buggy behaviour
