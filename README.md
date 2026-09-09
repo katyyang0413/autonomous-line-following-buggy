@@ -44,7 +44,7 @@ One of the main challenges was tuning the PID controller. We tested different va
 
 We also changed the steering method during development. Our original approach wasn't turning sharply enough, so we used pivot turns where one motor moved forward while the other reversed.
 
-Another problem was that different battery voltages affected the motor speeds, which made testing less consistent.
+Another big problem was that different battery voltages affected the motor speeds, which made testing less consistent. 
 
 ## My Contribution
 
