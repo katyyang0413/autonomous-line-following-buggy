@@ -1,6 +1,7 @@
 # Autonomous Line-Following Buggy
 
-This was a team project completed during second year of my studies.
+This was a team project completed as part of my Computer Engineering degree at Trinity College Dublin.
+
 We built and programmed an Arduino-based buggy that could follow a line, detect objects in front of it and communicate with a PC through Wi-Fi.
 
 ## What the buggy does
@@ -13,11 +14,21 @@ We built and programmed an Arduino-based buggy that could follow a line, detect 
 - Can be controlled through a GUI
 - Uses PWM to control the motors
 
+## System Design
+
+The diagram below shows how the PC, Arduino, sensors and motors were connected in the overall system.
+
+![System diagram](images/system_diagram.png)
+
 ## Hardware
 
 The buggy used an Arduino Uno R4 WiFi, two DC motors, an H-bridge motor driver, IR sensors, an ultrasonic sensor and wheel encoders.
 
 The IR sensors were used for line following, while the ultrasonic sensor measured the distance to objects in front of the buggy. The wheel encoders provided feedback for measuring speed and distance.
+
+### Hardware Setup
+
+![Hardware diagram](images/hardware_diagram.png)
 
 ## Software
 
@@ -47,6 +58,11 @@ This was a team project. I mainly worked on:
 - Creating the final project demonstration video
 
 ## Project Files
+
+- `arduino/` - Arduino code for the buggy
+- `gui/` - Processing GUI
+- `docs/` - Project reports and development log
+- `images/` - Project diagrams
 
 - `arduino/` - Arduino code for the buggy
 - `gui/` - Processing GUI
