@@ -1,7 +1,7 @@
 #include <WiFiS3.h>
 //need to change these for the wifi network which we will use
-const char* ssid = "Galaxy A41DACE";
-const char* password = "peter042";
+const char* ssid = "YOUR_WIFI_SSID";
+const char* password = "YOUR_WIFI_PASSWORD";
 
 
 WiFiServer server(5200);  //using port no.5200 - i believe this is a custom arduino port
